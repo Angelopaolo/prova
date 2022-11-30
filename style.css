@@ -1,0 +1,83 @@
+body{
+  background-image: url("img/download.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.container{
+  width: 1000px;
+  margin: auto;
+}
+
+
+
+.logo{
+  width: 100px;
+}
+
+.logo-text{
+  font-size: 20px;
+  display: inline-block;
+}
+ h2 > span{
+   color: red;
+   background-color: orange;
+   border-radius: 50px;
+   padding: 5px;
+ }
+
+
+.row{
+
+  background-color: grey;
+  color: black;
+
+}
+
+.row_left, .row_right{
+  display: inline-block;
+}
+
+.row_left{
+
+  width: 30%;
+}
+
+.row_right{
+
+  width: 68%;
+}
+
+footer{
+  text-align: center;
+}
+
+footer > span{
+  font-size: 25px;
+}
+
+.email.read{
+  background-color: lightgrey;
+}
+
+.subjetct{
+  color: black;
+}
+
+.email .body{
+  color: black;
+  content: '...';
+}
+
+.email .body:after{
+
+  content: '...';
+}
+
+.star:after{
+  content: "\2605";
+}
+
+email.unread{
+  background-color: white;
+}
