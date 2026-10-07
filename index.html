@@ -1,33 +1,34 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="it" dir="ltr">
   <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GMail - Posta in arrivo</title>
   </head>
   <body>
     <div class="container">
       <header>
         <!-- logo e testo -->
-        <img class="logo" src="img\gmail (2).png" alt="logo">
+        <img class="logo" src="img/gmail (2).png" alt="Logo Gmail">
         <h1 class="logo-text">GMAIL</h1>
         <hr>
       </header>
-      <nav>
-        <!-- input e testo delle email ono lette -->
-        <input type="text" placeholder="Search">
+      <section aria-label="Ricerca e riepilogo della posta">
+        <!-- input e testo delle email non lette -->
+        <input type="text" placeholder="Search" lang="en" aria-label="Cerca nella posta">
         <button type="button">VAI</button>
-        <h2>You have <span>30</span> unread</h2>
+        <h2 lang="en">You have <span>30</span> unread</h2>
         <hr>
-      </nav>
+      </section>
       <main>
         <!-- lista email -->
         <div class="contenitore">
           <div class="email read">
             <div class="row_left">
-              <input type="checkbox">
-              <span class="star"></span>
-              <span class="subjetct">Oggetto della email</span>
+              <input type="checkbox" aria-label="Seleziona la prima email">
+              <span class="star" aria-hidden="true"></span>
+              <span class="subject">Oggetto della email</span>
             </div>
             <div class="row_right">
             <span class="body">Corpo della email</span>
@@ -35,9 +36,9 @@
           </div>
           <div class="email unread">
             <div class="row_left">
-              <input type="checkbox">
-              <span class="star"></span>
-              <span class="sbujtct">Oggetto della email</span>
+              <input type="checkbox" aria-label="Seleziona la seconda email">
+              <span class="star" aria-hidden="true"></span>
+              <span class="subject">Oggetto della email</span>
             </div>
             <div class="row_right">
             <span class="body">Corpo della email</span>
